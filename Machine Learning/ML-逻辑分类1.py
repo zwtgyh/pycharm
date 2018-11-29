@@ -5,4 +5,3 @@ def sigmoid(s):
     return 1. / (1 +np.exp(-s))
 def softmax(s):
     return np.exp(s) / np.sum(np.exp(s), axis=0)
-print('hello')
