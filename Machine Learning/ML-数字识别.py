@@ -40,7 +40,7 @@ def plot_images_labels_prediction(images,labels,prediction,idx,num=10):
         ax.imshow(images[idx], cmap='binary')
         title = "label=" +str (labels[idx])
         if len(prediction)>0:
-            title+=",predict=" + str(prediction)
+            title+=",predict=" + str(prediction[idx])
         ax.set_title(title,fontsize=10)
         ax.set_xticks([])
         ax.set_yticks([])
