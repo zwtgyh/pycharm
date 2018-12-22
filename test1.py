@@ -54,6 +54,3 @@ for n in range(999):
     if n % 2 == 1 and n % 3 == 2 and n % 5 == 4 and n % 6 == 5 and n % 7 == 0:
         print(n)
 
-
-
-
